@@ -1,0 +1,16 @@
+// .form_container{
+//     width: 200px !important;
+// }
+.input_field:hover{
+    border: 1px solid #7d7d7d;
+}
+@media only screen and (min-width: 500px) {
+    .form_container{
+        width: 90% !important;
+    }
+}
+@media only screen and (min-width: 750px) {
+    .form_container{
+        width: 35% !important;
+    }
+}

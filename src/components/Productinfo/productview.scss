@@ -1,0 +1,30 @@
+@import '../../assets/scss/variable.scss';
+
+.productview_title{
+    font-size: 38px;
+    font-weight: 300;
+}
+.productview_price span{
+    font-weight: 300;
+    margin-right: 1rem;
+}
+.sale_btn{
+    background: black !important;
+    font-size: 12px !important;
+    &:hover{
+        background: black !important;
+    }
+}
+.quantity_btn{
+    border: 1px solid $muteColor;
+    width: fit-content;
+    button{
+        all: unset;
+        padding: 5px 10px;
+        font-size: 24px;
+        color: $muteColor;
+    }
+    span{
+        margin: 0 2rem;
+    }
+}

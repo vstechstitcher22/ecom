@@ -1,0 +1,64 @@
+@import '../scss/variable.scss';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .admin_home_dashboard{
+    background: #ebecf1 !important;
+    min-height: 100vh;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .product_card{
+      width: 10rem !important;
+    }
+    .header_info h6{
+      font-size: 12px !important;
+    }
+    .header_info button{
+      padding: 2px 4px;
+      font-size: 8px;
+    }
+  
+    .filter_btns button{
+      font-size: 10px;
+      padding: 2px 4px;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .header_info h6{
+      font-size: 8px !important;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 450px) {
+    .product_title{
+      font-size: 14px !important;
+    }
+    .product_name ,
+    .product_price p{
+      font-size: 10px !important;
+      margin: 0 !important;
+    }
+    .header_info{
+      padding: 1rem;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 425px){
+    .product_card{
+      width: 9rem !important;
+      margin: 5px 0 !important
+    }
+    .row>*{
+      padding: 0 !important;
+    }
+
+  }

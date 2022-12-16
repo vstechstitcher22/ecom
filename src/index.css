@@ -1,0 +1,109 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header_info{
+  background: linear-gradient(to right ,#181716, #f77842);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_info button{
+  background: white;
+  outline: none;
+  border: none;
+  color: black;
+  border-radius: 25px;
+  padding: 4px 8px;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+.products_container{
+  justify-content: space-between !important;
+}
+.product_title{
+  font-size: 16px !important;
+}
+.product_name ,
+.product_price p{
+  font-size: 14px !important;
+  margin: 0 !important;
+}
+.filter_btns{
+  flex-wrap: wrap;
+}
+.filter_btns button{
+  outline: none;
+  border: 1px solid #C4C4C4;
+  color: #C4C4C4;
+  background: none;
+  padding: 4px 8px;
+  border-radius: 25px;
+  margin-left: 8px;
+}
+.navbar-collapse{
+  flex-grow: unset !important;
+  justify-content: space-between !important;
+}
+.filter_btns .active{
+  color: black;
+  border:1px solid black;
+}
+.card{
+  transition: .3s;
+}
+.card:hover{
+  box-shadow: 0 1px 15px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  
+  .header_info h6{
+    font-size: 12px !important;
+  }
+  .header_info button{
+    padding: 2px 4px;
+    font-size: 8px;
+  }
+
+  .filter_btns button{
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .header_info h6{
+    font-size: 8px !important;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .products_container{
+    justify-content: center !important;
+  }
+  .product_title{
+    font-size: 14px !important;
+  }
+  .product_name ,
+  .product_price p{
+    font-size: 10px !important;
+    margin: 0 !important;
+  }
+  .card{
+    width: 10rem !important;
+  }
+  .header_info{
+    padding: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 390px){
+  .card{
+    width: 7rem !important;
+  }
+} */
